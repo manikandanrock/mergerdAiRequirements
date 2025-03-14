@@ -82,7 +82,7 @@ An intelligent system for automated requirement extraction, classification, and 
 Python- 3.12.6
 Node.js- 22.14.0
 ```
-###API Endpoints
+### API Endpoints
 - Endpoint	Method	Description
 - /api/upload	POST	File upload and processing
 - /api/analyze	POST	Document analysis pipeline
@@ -90,7 +90,7 @@ Node.js- 22.14.0
 - /api/requirements	GET	Retrieve requirements
 - /api/health	GET	System status check
 
-###Key Enhancements
+### Key Enhancements
 
 - Context-aware requirement analysis
 
