@@ -115,7 +115,7 @@ Node.js- 22.14.0
 - Automated metadata extraction
 
 ### System Requirements
-- ** Component	Minimum Version **
+- **Component	Minimum Version**
 - Python	3.12
 - Node.js	18.x
 - RAM	4GB
