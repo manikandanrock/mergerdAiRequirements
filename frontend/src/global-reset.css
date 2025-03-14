@@ -1,0 +1,24 @@
+/* global-reset.css */
+/* Using Normalize.css (CDN link) */
+/* You can also download and host it locally */
+
+/* Place this in your HTML's <head> section: */
+/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> */
+
+/* Adding some base styles on top of Normalize.css */
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif; /* Your preferred font */
+    line-height: 1.6;
+    font-weight: 400; /*base font weight*/
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Focus styles for accessibility */
+:focus {
+    outline: 2px solid #007bff; /* Default focus style, customize as needed */
+}
