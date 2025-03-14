@@ -14,8 +14,6 @@ An intelligent system for automated requirement extraction, classification, and 
   Detect authors, dates, and technical specifications
 - **Requirement Management**  
   Database storage with filtering/search capabilities
-- **AI Assistant**  
-  Gemini-powered chatbot for requirements Q&A
 - **Analytics Dashboard**  
   Real-time statistics and reporting
 
@@ -25,7 +23,6 @@ An intelligent system for automated requirement extraction, classification, and 
 - **Python 3.12** (Flask REST API)
 - **SQLAlchemy** (Database ORM)
 - **spaCy** (NLP processing)
-- **Google Generative AI** (Gemini chatbot)
 - **Hugging Face Transformers** (BART classification)
 - **pdfminer.six** (PDF text extraction)
 
@@ -40,7 +37,6 @@ An intelligent system for automated requirement extraction, classification, and 
 - Python 3.12+
 - Node.js 18+
 - Git
-- Gemini API key (free tier available)
 
 ### Prerequisites
 
