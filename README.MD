@@ -1,34 +1,46 @@
-# AI-Powered Requirements Analysis Tool
+# AI-Powered Requirements Analysis System
 
 ## Overview
 
-This project is an AI-powered tool that extracts and classifies requirements from text documents (PDF/TXT). It automates the process of analyzing requirement documents, improving efficiency and consistency in requirement gathering.
+An intelligent system for automated requirement extraction, classification, and analysis. Processes documents (PDF/TXT) to identify and categorize software requirements with AI-powered insights and chatbot integration.
 
-## Features
+## Key Features
 
-- Upload and analyze requirement documents.
-- Extract and classify requirements into predefined categories.
-- Supports multi-label classification using NLP models.
-- RESTful API for backend processing.
-- Frontend built with React for an interactive UI.
+- **Document Analysis**  
+  Upload and analyze requirement documents (PDF/TXT/MD)
+- **AI Classification**  
+  Automatic categorization using NLP models (BART + spaCy)
+- **Smart Metadata Extraction**  
+  Detect authors, dates, and technical specifications
+- **Requirement Management**  
+  Database storage with filtering/search capabilities
+- **AI Assistant**  
+  Gemini-powered chatbot for requirements Q&A
+- **Analytics Dashboard**  
+  Real-time statistics and reporting
 
-## Tech Stack
+## Enhanced Tech Stack
 
-### Backend:
-
-- **Python** (Flask for REST API)
+### Backend Services:
+- **Python 3.12** (Flask REST API)
+- **SQLAlchemy** (Database ORM)
 - **spaCy** (NLP processing)
+- **Google Generative AI** (Gemini chatbot)
+- **Hugging Face Transformers** (BART classification)
 - **pdfminer.six** (PDF text extraction)
-- **Hugging Face Transformers** (BART model for classification)
-- **Node.js** (Routing and API handling)
 
-### Frontend:
-
+### Frontend Interface:
 - **React.js** (UI Framework)
-- **Material UI** (UI components)
-- **Axios** (API communication)
+- **Material UI** (Design System)
+- **Axios** (API Client)
 
-## Installation
+## System Setup
+
+### Prerequisites
+- Python 3.12+
+- Node.js 18+
+- Git
+- Gemini API key (free tier available)
 
 ### Prerequisites
 
@@ -70,6 +82,44 @@ This project is an AI-powered tool that extracts and classifies requirements fro
 Python- 3.12.6
 Node.js- 22.14.0
 ```
+###API Endpoints
+- Endpoint	Method	Description
+- /api/upload	POST	File upload and processing
+- /api/analyze	POST	Document analysis pipeline
+- /api/chat	POST	AI chatbot interface
+- /api/requirements	GET	Retrieve requirements
+- /api/health	GET	System status check
+
+###Key Enhancements
+
+- Context-aware requirement analysis
+
+- Natural language query interface
+
+- Real-time system statistics in responses
+
+- Improved Security
+
+- Environment variable configuration
+
+- Input sanitization
+
+- Safety filters for AI responses
+
+- Database Features
+
+- SQLAlchemy ORM
+
+- Advanced filtering/search
+
+- Automated metadata extraction
+
+### System Requirements
+- ** Component	Minimum Version **
+- Python	3.12
+- Node.js	18.x
+- RAM	4GB
+- Disk	500MB
 
 
 
